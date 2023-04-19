@@ -1,0 +1,41 @@
+body {
+  background-color: deepskyblue;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+#play-sound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4em auto 0;
+  cursor: pointer;
+}
+
+#play-sound img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  
+}
+
+@media (min-width: 768px) {
+  /* Styles for tablets and desktops */
+  #play-sound {
+    height: 600px;
+    width: 600px;
+  }
+
+  #play-sound img {
+    height: 50%;
+    width: 50%;
+  }
+}
